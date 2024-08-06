@@ -1,7 +1,7 @@
 package telran.multithreading;
 
 public class CounterUpdater extends Thread {
-	private static volatile long counter; 
+	private static long counter;
 	private static final Object mutex = new Object();
 	private int nRuns;
 
